@@ -1,10 +1,11 @@
 PATH
   remote: .
   specs:
-    chupakabra_tools (0.0.7)
+    chupakabra_tools (0.0.11)
       active_enum
       activerecord
       activesupport
+      nokogiri
       russian
 
 GEM
@@ -26,10 +27,13 @@ GEM
     arel (3.0.2)
     builder (3.0.4)
     i18n (0.6.4)
-    multi_json (1.6.1)
+    mini_portile (0.5.0)
+    multi_json (1.7.7)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
     russian (0.6.0)
       i18n (>= 0.5.0)
-    tzinfo (0.3.36)
+    tzinfo (0.3.37)
 
 PLATFORMS
   ruby

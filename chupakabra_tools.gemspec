@@ -21,5 +21,6 @@ Gem::Specification.new do |gem|
 	gem.add_dependency "activerecord"
 	gem.add_dependency "active_enum"
 	gem.add_dependency "russian"
+	gem.add_dependency "nokogiri"
 
 end

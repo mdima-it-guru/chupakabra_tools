@@ -1,10 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6aa733e-1913-4274-b172-8caf8ff85836" name="Default" comment="" />
+    <list default="true" id="d6aa733e-1913-4274-b172-8caf8ff85836" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/active_enum_extended.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/controllers/basic_actions.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/basic_management_urls.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/class_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/controllers/container_items_management_actions.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/controllers/container_items_sorting_actions.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/models/data_filter.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/data_type.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/exports.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/filters.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/form_properties.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/models/form_property.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/json_status.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/logging.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/methods.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/controllers/obligatory_filters.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/scopes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/set_management_result.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/sorting.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/standard_actions.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/controllers/transaction_wrapper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/uncloneable_properties.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/xml/xml_parser.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/chupakabra_tools/validattions.rb" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/validations.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chupakabra_tools/active_record.rb" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/active_record.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chupakabra_tools.gemspec" afterPath="$PROJECT_DIR$/chupakabra_tools.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chupakabra_tools.rb" afterPath="$PROJECT_DIR$/lib/chupakabra_tools.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chupakabra_tools/version.rb" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/version.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="chupakabra_tools.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1367254197869" ignored="false" />
+    <file path="/Dummy.txt" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375952075986" ignored="false" />
+    <file path="/active_record.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1367255437093" ignored="false" />
+    <file path="/logging.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1373107681123" ignored="false" />
+    <file path="/chupakabra_tools.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375952172490" ignored="false" />
+    <file path="/chupakabra_tools.gemspec" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375796139090" ignored="false" />
+    <file path="/xml_parser.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375864117175" ignored="false" />
+    <file path="/active_enum_extended.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375796226817" ignored="false" />
+    <file path="/data_file.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375796750524" ignored="false" />
+    <file path="/json_status.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375796885411" ignored="false" />
+    <file path="/data_filter.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375864609653" ignored="false" />
+    <file path="/form_property.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375880865604" ignored="false" />
+    <file path="/model_sorting.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375797562645" ignored="false" />
+    <file path="/model_scopes.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375805036028" ignored="false" />
+    <file path="/model_methods.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375805109931" ignored="false" />
+    <file path="/model_forms.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375805190216" ignored="false" />
+    <file path="/model_filters.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375805681672" ignored="false" />
+    <file path="/model_standart_actions.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375805771662" ignored="false" />
+    <file path="/controller_transaction_wrapper.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375805919164" ignored="false" />
+    <file path="/controller_obligatory_filters.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375805985898" ignored="false" />
+    <file path="/controller_basic_actions.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375806068149" ignored="false" />
+    <file path="/container_items_sorting_actions.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375864736987" ignored="false" />
+    <file path="/model_unclonable_properties.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375806437098" ignored="false" />
+    <file path="/class_helper.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375858830097" ignored="false" />
+    <file path="/basic_actions.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375864686491" ignored="false" />
+    <file path="/obligatory_filters.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375864753361" ignored="false" />
+    <file path="/transaction_wrapper.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375864772231" ignored="false" />
+    <file path="/filters.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375880535917" ignored="false" />
+    <file path="/forms.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375857763618" ignored="false" />
+    <file path="/methods.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375865042038" ignored="false" />
+    <file path="/scopes.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375865109478" ignored="false" />
+    <file path="/sorting.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375865154832" ignored="false" />
+    <file path="/standart_actions.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375878633436" ignored="false" />
+    <file path="/unclonable_properties.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375857910933" ignored="false" />
+    <file path="/container_items_management_actions.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375864710497" ignored="false" />
+    <file path="/a.dummy" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375951791824" ignored="false" />
+    <file path="/temp.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375878644782" ignored="false" />
+    <file path="/form_properties.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375880519997" ignored="false" />
+    <file path="/uncloneable_properties.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375865195251" ignored="false" />
+    <file path="/data_type.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375865771719" ignored="false" />
+    <file path="/set_management_resutl.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375876794684" ignored="false" />
+    <file path="/basic_management_urls.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375877324753" ignored="false" />
+    <file path="/exports.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1375952119204" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +95,17 @@
     <favorites_list name="chupakabra_tools" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="chupakabra_tools.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="59" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.47046843">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -41,29 +123,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/chupakabra/TimeInterval.rb" />
-        <option value="$PROJECT_DIR$/lib/chupakabra/time_interval.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/lib/chupakabra_tools/time_interval.rb" />
-        <option value="$PROJECT_DIR$/lib/chupakabra_tools/predefined_time_intervals.rb" />
-        <option value="$PROJECT_DIR$/lib/chupakabra_tools/security.rb" />
-        <option value="$PROJECT_DIR$/lib/chupakabra_tools/http.rb" />
-        <option value="$PROJECT_DIR$/lib/chupakabra_tools/number_as_text.rb" />
-        <option value="$PROJECT_DIR$/lib/chupakabra_tools/active_record.rb" />
-        <option value="$PROJECT_DIR$/lib/chupakabra_tools/validattions.rb" />
-        <option value="$PROJECT_DIR$/lib/chupakabra_tools.rb" />
-        <option value="$PROJECT_DIR$/chupakabra_tools.gemspec" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/methods.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/scopes.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/sorting.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/uncloneable_properties.rb" />
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/version.rb" />
-        <option value="$PROJECT_DIR$/lib/chupakabra_tools/transliterator.rb" />
-        <option value="$PROJECT_DIR$/lib/chupakabra_tools/convert.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/active_enum_extended.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/data_type.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/json_status.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/set_management_resutl.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/standart_actions.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/form_properties.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/filters.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/models/form_property.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/basic_management_urls.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/exports.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="22" />
-    <option name="width" value="1760" />
-    <option name="height" value="826" />
+    <option name="x" value="1440" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -91,7 +173,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -110,8 +191,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chupakabra_tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chupakabra_tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,6 +215,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/chupakabra_tools/extentions/helpers/models" />
+      <recent name="$PROJECT_DIR$/lib/chupakabra_tools/extentions/helpers/controllers" />
+      <recent name="$PROJECT_DIR$/lib/chupakabra_tools/xml" />
+      <recent name="$PROJECT_DIR$/lib/chupakabra_tools/extentions" />
       <recent name="$PROJECT_DIR$/lib/chupakabra_tools" />
     </key>
   </component>
@@ -211,14 +311,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="22" width="1760" height="826" extended-state="0" />
+    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22843823" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33645833" sideWeight="0.87599206" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -227,7 +327,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12400793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -294,82 +394,94 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/time_interval.rb">
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/controllers/basic_actions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="102" selection-end="102" vertical-scroll-proportion="0.07314525" />
+        <state line="417" column="109" selection-start="14085" selection-end="14085" vertical-scroll-proportion="0.7378741" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/predefined_time_intervals.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="74" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.22245763" />
+        <state line="1" column="21" selection-start="41" selection-end="62" vertical-scroll-proportion="0.014447885" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/time_interval.rb">
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/active_enum_extended.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="27" selection-start="6071" selection-end="6071" vertical-scroll-proportion="0.014629049" />
+        <state line="1" column="21" selection-start="48" selection-end="48" vertical-scroll-proportion="0.014256619" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/security.rb">
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/sorting.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="190" selection-end="190" vertical-scroll-proportion="0.13166144" />
+        <state line="61" column="41" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.30142567">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/http.rb">
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/set_management_result.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="7" selection-start="363" selection-end="363" vertical-scroll-proportion="0.23406479" />
+        <state line="3" column="47" selection-start="123" selection-end="123" vertical-scroll-proportion="0.042769857" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chupakabra_tools.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="31" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/data_type.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="47" selection-start="0" selection-end="47" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/json_status.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="47" selection-start="74" selection-end="74" vertical-scroll-proportion="0.014256619" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/standard_actions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="97" selection-start="926" selection-end="926" vertical-scroll-proportion="0.47678018" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/filters.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="55" selection-start="83" selection-end="83" vertical-scroll-proportion="0.028513238">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/version.rb">
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/form_properties.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+        <state line="2" column="58" selection-start="28" selection-end="86" vertical-scroll-proportion="0.014256619">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/validattions.rb">
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/extensions/models/form_property.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="8" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.8207681">
+        <state line="4" column="17" selection-start="93" selection-end="93" vertical-scroll-proportion="0.05779154" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/extensions/models/data_filter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="88" selection-end="93" vertical-scroll-proportion="0.05779154" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/basic_management_urls.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="96" selection-start="742" selection-end="742" vertical-scroll-proportion="0.35641548" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/exports.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/transliterator.rb">
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="33" selection-start="26" selection-end="57" vertical-scroll-proportion="0.039829303">
+        <state line="33" column="59" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.47046843">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/active_record.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="86" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.6780627" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/number_as_text.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.40203193" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/convert.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="64" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.44159544" />
       </provider>
     </entry>
   </component>
