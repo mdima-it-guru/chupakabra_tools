@@ -1,6 +1,6 @@
 # -*- encoding : utf-8 -*-
 
-module Chupakabratools
+module ChupakabraTools
 	module Extensions
 		module Helpers
 			module Models
