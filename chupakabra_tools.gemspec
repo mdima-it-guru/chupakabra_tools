@@ -22,5 +22,6 @@ Gem::Specification.new do |gem|
 	gem.add_dependency "active_enum"
 	gem.add_dependency "russian"
 	gem.add_dependency "nokogiri"
+	gem.add_dependency "will_paginate"
 
 end
