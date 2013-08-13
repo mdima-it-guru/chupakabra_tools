@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6aa733e-1913-4274-b172-8caf8ff85836" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chupakabra_tools/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chupakabra_tools/helpers/breadcrumbs_helper.rb" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/helpers/breadcrumbs_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chupakabra_tools.gemspec" afterPath="$PROJECT_DIR$/chupakabra_tools.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/chupakabra_tools.iml" afterPath="$PROJECT_DIR$/.idea/chupakabra_tools.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chupakabra_tools/helpers/gui_helper.rb" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/helpers/gui_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chupakabra_tools/models/kirgubu_base.rb" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/models/kirgubu_base.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chupakabra_tools/helpers/url_helper.rb" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/helpers/url_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chupakabra_tools/validations.rb" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/validations.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chupakabra_tools.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1376218155790" ignored="false" />
+    <file path="/Dummy.txt" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1376394820487" ignored="false" />
     <file path="/active_record.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1367255437093" ignored="false" />
     <file path="/logging.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1373107681123" ignored="false" />
     <file path="/chupakabra_tools.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1376156826190" ignored="false" />
@@ -63,6 +56,7 @@
     <file path="/gui_helper.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1376214015740" ignored="false" />
     <file path="/application_controller.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1376218349037" ignored="false" />
     <file path="/kirgubu_base.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1376214280912" ignored="false" />
+    <file path="/validations.rb" changelist="d6aa733e-1913-4274-b172-8caf8ff85836" time="1376394846700" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/standart_actions.rb" />
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/form_properties.rb" />
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/filters.rb" />
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/models/form_property.rb" />
@@ -115,6 +108,7 @@
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/models/kirgubu_base.rb" />
         <option value="$PROJECT_DIR$/chupakabra_tools.gemspec" />
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/validations.rb" />
       </list>
     </option>
   </component>
@@ -356,7 +350,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30677083" sideWeight="0.87599206" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30677083" sideWeight="0.87599206" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -432,11 +426,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/standard_actions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="97" selection-start="926" selection-end="926" vertical-scroll-proportion="0.47678018" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/filters.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="55" selection-start="83" selection-end="83" vertical-scroll-proportion="0.028513238" />
@@ -486,42 +475,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/helpers/gui_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="268" column="0" selection-start="7536" selection-end="7536" vertical-scroll-proportion="0.9429735">
-          <folding />
-        </state>
+        <state line="268" column="0" selection-start="7536" selection-end="7536" vertical-scroll-proportion="0.9429735" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/helpers/url_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="408" selection-end="408" vertical-scroll-proportion="0.24236253">
-          <folding />
-        </state>
+        <state line="17" column="7" selection-start="408" selection-end="408" vertical-scroll-proportion="0.24236253" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/models/kirgubu_base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="16" selection-start="7019" selection-end="7019" vertical-scroll-proportion="0.50101835">
-          <folding />
-        </state>
+        <state line="242" column="16" selection-start="7019" selection-end="7019" vertical-scroll-proportion="0.50101835" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="463" selection-end="463" vertical-scroll-proportion="0.17107943">
-          <folding />
-        </state>
+        <state line="12" column="31" selection-start="463" selection-end="463" vertical-scroll-proportion="0.17107943" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chupakabra_tools.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="29" selection-start="846" selection-end="846" vertical-scroll-proportion="0.34215885">
-          <folding />
-        </state>
+        <state line="24" column="29" selection-start="846" selection-end="846" vertical-scroll-proportion="0.34215885" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="20" selection-start="7053" selection-end="7053" vertical-scroll-proportion="0.8121775">
+        <state line="202" column="20" selection-start="7053" selection-end="7053" vertical-scroll-proportion="0.8121775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/validations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="20" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.95519346">
           <folding />
         </state>
       </provider>

@@ -9,7 +9,7 @@ module ChupakabraTools::Validations
 	end
 
 
-	def phone(phone, params={})
+	def self.validate_phone(phone, params={})
 
 		params ||= {}
 
@@ -76,5 +76,13 @@ module ChupakabraTools::Validations
 		end
 
 		phone ? true : false
+	end
+
+	def self.validate_email(data, params = {})
+		return false if data.nil?
+		return false unless data.is_a?(String)
+		data.strip!
+		return false if data.blank?
+		(data =~ /\b[A-Z0-9._%a-z\-]+@(?:[A-Z0-9a-z\-]+\.)+[A-Za-z]{2,4}\z/) != nil
 	end
 end
