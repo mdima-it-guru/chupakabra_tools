@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'chupakabra_tools/version'
+
 
 Gem::Specification.new do |gem|
 	gem.name = "chupakabra_tools"
-	gem.version = ChupakabraTools::VERSION
+	gem.version = '0.0.13'
 	gem.authors = ["Mitrofanov Dmitry"]
 	gem.email = ["mdima@it-guru.biz"]
 	gem.description = %q{Chupakbara Tools Set for Easy Life}

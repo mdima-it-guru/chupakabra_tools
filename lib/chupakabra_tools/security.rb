@@ -1,6 +1,5 @@
 module ChupakabraTools::Security
 	def self.generate_secret(options={})
-
 		options ||= {}
 
 		chars = ""
@@ -37,5 +36,9 @@ module ChupakabraTools::Security
 		new_pass = ""
 		1.upto(len) { |i| new_pass << chars[rand(chars.size-1)] }
 		new_pass
+	end
+
+	def get_password_hash(password)
+		Digest::SHA256.hexdigest(password)
 	end
 end
