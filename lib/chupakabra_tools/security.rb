@@ -38,7 +38,7 @@ module ChupakabraTools::Security
 		new_pass
 	end
 
-	def get_password_hash(password)
-		Digest::SHA256.hexdigest(password)
+	def self.get_password_hash(password)
+		::Digest::SHA256.hexdigest(password)
 	end
 end
