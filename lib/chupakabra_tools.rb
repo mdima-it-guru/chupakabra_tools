@@ -15,6 +15,8 @@ require 'chupakabra_tools/set_management_result'
 require "chupakabra_tools/active_enum_extended"
 require "chupakabra_tools/internet_file_process_status"
 require "chupakabra_tools/deletion_status"
+require "chupakabra_tools/strings"
+
 
 require "chupakabra_tools/xml/xml_parser"
 

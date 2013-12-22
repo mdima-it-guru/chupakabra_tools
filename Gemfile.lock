@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    chupakabra_tools (0.0.14)
+    chupakabra_tools (0.0.15)
       active_enum
       activerecord
       activesupport

@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
 	gem.name = "chupakabra_tools"
-	gem.version = '0.0.14'
+	gem.version = '0.0.15'
 	gem.authors = ["Mitrofanov Dmitry"]
 	gem.email = ["mdima@it-guru.biz"]
 	gem.description = %q{Chupakbara Tools Set for Easy Life}
