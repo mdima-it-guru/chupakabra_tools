@@ -9,26 +9,14 @@ module ChupakabraTools::ClassHelper
 		class_name.to_s.underscore.gsub('/', '.')
 	end
 
-	def self.controller_to_i18n(controller)
-		controller_class = nil
-		unless controller
+	def self.controller_class_to_i18n(controller_class)
+		unless controller_class
 			raise "supplied controller is null"
 		end
 
-		begin
-			if controller.is_a?(Class) && controller < ApplicationController
-				controller_class = controller
-			elsif controller.class < ApplicationController
-				controller_class = controller.class
-			end
-		rescue
-		end
-
-		if controller_class
-			i18n_string = ::ChupakabraTools::ClassHelper.class_to_i18n(controller_class)
-			i18n_string.gsub!("_controller", "") if i18n_string
-			i18n_string
-		end
+		i18n_string = ::ChupakabraTools::ClassHelper.class_to_i18n(controller_class)
+		i18n_string.gsub!("_controller", "") if i18n_string
+		i18n_string
 	end
 
 	def self.controller_underscore(controller)

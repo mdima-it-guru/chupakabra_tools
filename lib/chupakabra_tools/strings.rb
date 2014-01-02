@@ -1,5 +1,5 @@
 module ChupakabraTools::Strings
-	def self.trim(string, length, options={})
+	def self.cut_string(string, length, options={})
 		options ||= {}
 		options.stringify_keys!
 
@@ -8,7 +8,7 @@ module ChupakabraTools::Strings
 		length ||= 30
 
 		if string.length > length
-			string.trim!(length) + "..."
+			string[0..length] + "..."
 		end
 	end
 end
