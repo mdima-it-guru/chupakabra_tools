@@ -102,36 +102,6 @@ module ChupakabraTools::ClassHelper
 	end
 
 
-	def self.get_class_hierarchy_for_class(klass)
-		classes_2_inspect = []
-		if klass
-			classes_2_inspect.push(klass)
-			sc = klass
-			while (true) do
-				sc = sc.superclass
-				classes_2_inspect.push(sc)
-				if sc == ApplicationController
-					break
-				end
-			end
-		end
-		classes_2_inspect
-	end
-
-	def self.get_obligatory_filters_for_controller_class(klass)
-
-		found_obligatory_filters=[]
-		::ChupakabraTools::ClassHelper.get_class_hierarchy_for_class(klass).each do |cl|
-			if cl.respond_to?(:obligatory_filters_set)
-				cl.obligatory_filters_set.each do |filter|
-					found_obligatory_filters.push(filter)
-				end
-			end
-		end
-		found_obligatory_filters
-	end
-
-
 	def self.test_app_classes_for_errors
 		results = []
 

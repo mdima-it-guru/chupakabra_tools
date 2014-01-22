@@ -1,6 +1,14 @@
 module ChupakabraTools::Security
 	def self.generate_secret(options={})
 		options ||= {}
+		options =
+			{
+				big: true,
+				small: true,
+				digits: true,
+				specials: false,
+			    length: 8
+			}.merge(options)
 
 		chars = ""
 
