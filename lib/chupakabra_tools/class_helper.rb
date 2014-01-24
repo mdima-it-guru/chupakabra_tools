@@ -102,7 +102,7 @@ module ChupakabraTools::ClassHelper
 	end
 
 
-	def self.test_app_classes_for_errors
+	def self.test_engine_classes
 		results = []
 
 
