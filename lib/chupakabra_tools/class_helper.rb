@@ -102,6 +102,39 @@ module ChupakabraTools::ClassHelper
 	end
 
 
+	def self.get_controller_hierarchy(controller)
+		classes_2_inspect = []
+		classes_2_inspect.push(controller)
+		sc = controller
+		while true do
+			sc = sc.superclass
+			classes_2_inspect.push(sc)
+			if sc == ApplicationController
+				break
+			end
+		end
+		classes_2_inspect
+	end
+
+
+	def self.get_class_hierarchy(klass)
+		classes_2_inspect = []
+		classes_2_inspect.push(klass)
+		sc = klass
+		while true do
+			sc = sc.superclass
+			classes_2_inspect.push(sc)
+			if sc == Object || sc.nil?
+				break
+			end
+		end
+		classes_2_inspect
+	end
+
+
+
+
+
 	def self.test_engine_classes
 		results = []
 

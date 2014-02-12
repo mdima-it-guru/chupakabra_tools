@@ -1,10 +1,10 @@
 PATH
   remote: .
   specs:
-    chupakabra_tools (0.0.16)
+    chupakabra_tools (0.0.18)
       active_enum
       activerecord
-      activesupport (>= 3.2.16)
+      activesupport
       nokogiri
       russian
       will_paginate
@@ -12,37 +12,30 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    active_enum (0.9.1)
-    activemodel (4.0.2)
-      activesupport (= 4.0.2)
-      builder (~> 3.1.0)
-    activerecord (4.0.2)
-      activemodel (= 4.0.2)
-      activerecord-deprecated_finders (~> 1.0.2)
-      activesupport (= 4.0.2)
-      arel (~> 4.0.0)
-    activerecord-deprecated_finders (1.0.3)
-    activesupport (4.0.2)
-      i18n (~> 0.6, >= 0.6.4)
-      minitest (~> 4.2)
-      multi_json (~> 1.3)
-      thread_safe (~> 0.1)
-      tzinfo (~> 0.3.37)
-    arel (4.0.1)
-    atomic (1.1.14)
-    builder (3.1.4)
-    i18n (0.6.9)
-    mini_portile (0.5.2)
-    minitest (4.7.5)
-    multi_json (1.8.2)
-    nokogiri (1.6.1)
+    active_enum (0.9.12)
+      activesupport (~> 3.0)
+    activemodel (3.2.12)
+      activesupport (= 3.2.12)
+      builder (~> 3.0.0)
+    activerecord (3.2.12)
+      activemodel (= 3.2.12)
+      activesupport (= 3.2.12)
+      arel (~> 3.0.2)
+      tzinfo (~> 0.3.29)
+    activesupport (3.2.12)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    arel (3.0.2)
+    builder (3.0.4)
+    i18n (0.6.4)
+    mini_portile (0.5.0)
+    multi_json (1.7.7)
+    nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     russian (0.6.0)
       i18n (>= 0.5.0)
-    thread_safe (0.1.3)
-      atomic
-    tzinfo (0.3.38)
-    will_paginate (3.0.5)
+    tzinfo (0.3.37)
+    will_paginate (3.0.4)
 
 PLATFORMS
   ruby
