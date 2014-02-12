@@ -107,6 +107,7 @@ module ChupakabraTools::ClassHelper
 		classes_2_inspect.push(controller)
 		sc = controller
 		while true do
+			break if sc.nil?
 			sc = sc.superclass
 			classes_2_inspect.push(sc)
 			if sc == ApplicationController
