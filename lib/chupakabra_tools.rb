@@ -10,12 +10,15 @@ require "chupakabra_tools/transliterator"
 require "chupakabra_tools/logging"
 require "chupakabra_tools/class_helper"
 require "chupakabra_tools/data_type"
+require "chupakabra_tools/file_type"
 require "chupakabra_tools/json_status"
 require 'chupakabra_tools/set_management_result'
 require "chupakabra_tools/active_enum_extended"
 require "chupakabra_tools/internet_file_process_status"
 require "chupakabra_tools/deletion_status"
 require "chupakabra_tools/strings"
+require "chupakabra_tools/sex"
+require "chupakabra_tools/marriage_status"
 
 
 require "chupakabra_tools/xml/xml_parser"
