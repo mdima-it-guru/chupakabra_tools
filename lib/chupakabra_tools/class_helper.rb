@@ -191,7 +191,7 @@ module ChupakabraTools::ClassHelper
 
 
 		Rails.logger.info(results)
-		results
+		results.join("\r\n")
 	end
 
 
