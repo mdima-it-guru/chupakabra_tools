@@ -110,7 +110,8 @@ module ChupakabraTools::ClassHelper
 			break if sc.nil?
 			sc = sc.superclass
 			classes_2_inspect.push(sc)
-			if sc == ApplicationController
+			if sc == ActionController::Base
+				# we reached base application controller
 				break
 			end
 		end

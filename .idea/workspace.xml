@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6aa733e-1913-4274-b172-8caf8ff85836" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chupakabra_tools.gemspec" afterPath="$PROJECT_DIR$/chupakabra_tools.gemspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/chupakabra_tools.iml" afterPath="$PROJECT_DIR$/.idea/chupakabra_tools.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chupakabra_tools/class_helper.rb" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/class_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chupakabra_tools/strings.rb" afterPath="$PROJECT_DIR$/lib/chupakabra_tools/strings.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chupakabra_tools.iws" />
@@ -27,10 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="strings.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/strings.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="chupakabra_tools.gemspec" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chupakabra_tools.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="62" selection-start="811" selection-end="811" vertical-scroll-proportion="0.3814329" vertical-offset="0" max-vertical-offset="991">
+            <state vertical-scroll-proportion="0.08844765" vertical-offset="0" max-vertical-offset="1108">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -68,7 +82,6 @@
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/extensions/helpers/models/form_property.rb" />
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/version.rb" />
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/time_interval.rb" />
-        <option value="$PROJECT_DIR$/lib/chupakabra_tools/strings.rb" />
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/security.rb" />
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/json_status.rb" />
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/set_management_result.rb" />
@@ -78,15 +91,16 @@
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/sex.rb" />
         <option value="$PROJECT_DIR$/lib/chupakabra_tools.rb" />
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/marriage_status.rb" />
-        <option value="$PROJECT_DIR$/chupakabra_tools.gemspec" />
         <option value="$PROJECT_DIR$/lib/chupakabra_tools/class_helper.rb" />
+        <option value="$PROJECT_DIR$/lib/chupakabra_tools/strings.rb" />
+        <option value="$PROJECT_DIR$/chupakabra_tools.gemspec" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1440" />
     <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -102,7 +116,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -173,6 +187,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -212,6 +230,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
@@ -235,7 +254,7 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
@@ -262,6 +281,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
@@ -277,15 +297,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <frame x="1440" y="0" width="1920" height="1200" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2143617" sideWeight="0.87599206" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22074468" sideWeight="0.87599206" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -293,15 +313,18 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12225154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -320,265 +343,363 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/class_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="48" selection-start="2180" selection-end="2180" vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="2856">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="3332">
+          <caret line="157" column="100" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/class_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="2856">
+          <caret line="91" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/security.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="686" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="686">
+          <caret line="9" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="154" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="154">
+          <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/strings.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="0" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="266" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="266">
+          <caret line="13" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/security.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="686" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="686">
+          <caret line="9" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="154" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="154">
+          <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/strings.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="0" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="266" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="266">
+          <caret line="13" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/security.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="686" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="686">
+          <caret line="9" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="74" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="154" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="154">
+          <caret line="5" column="74" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/strings.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="73" selection-start="0" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="266" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="266">
+          <caret line="13" column="73" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/security.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="686" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="686">
+          <caret line="8" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chupakabra_tools.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="37" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="462" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="462">
+          <caret line="9" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/class_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="13" selection-start="2406" selection-end="2406" vertical-scroll-proportion="0.0" vertical-offset="1442" max-vertical-offset="3444" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1442" max-vertical-offset="3444">
+          <caret line="103" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/security.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="686" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="686">
+          <caret line="1" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/class_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="13" selection-start="2406" selection-end="2406" vertical-scroll-proportion="0.0" vertical-offset="1229" max-vertical-offset="3444" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1229" max-vertical-offset="3444">
+          <caret line="103" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/security.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="686" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="686">
+          <caret line="9" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/class_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="13" selection-start="2406" selection-end="2406" vertical-scroll-proportion="0.0" vertical-offset="1229" max-vertical-offset="3444" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1229" max-vertical-offset="3444">
+          <caret line="103" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="434" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="434">
+          <caret line="20" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chupakabra_tools.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chupakabra_tools.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/bigdecimal/jacobian.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/number_as_text.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/xml/xml_parser.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="93" selection-start="244" selection-end="244" vertical-scroll-proportion="0.20854022" vertical-offset="0" max-vertical-offset="1007" />
+        <state vertical-scroll-proportion="0.20854022" vertical-offset="0" max-vertical-offset="1007">
+          <caret line="15" column="93" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/validations.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="101" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.8480635" vertical-offset="0" max-vertical-offset="1302" />
+        <state vertical-scroll-proportion="0.8480635" vertical-offset="0" max-vertical-offset="1302">
+          <caret line="61" column="101" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/transliterator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/predefined_time_intervals.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="392" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="392">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/time_interval.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7658" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7658">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/convert.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/active_record.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="77" selection-start="582" selection-end="582" vertical-scroll-proportion="0.30257803" vertical-offset="71" max-vertical-offset="966" />
+        <state vertical-scroll-proportion="0.30257803" vertical-offset="71" max-vertical-offset="966">
+          <caret line="21" column="77" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/logging.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.25138122" vertical-offset="182" max-vertical-offset="1974" />
+        <state vertical-scroll-proportion="-0.25138122" vertical-offset="182" max-vertical-offset="1974">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/internet_file_process_status.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/http.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="60" selection-start="0" selection-end="367" vertical-scroll-proportion="0.3229308" vertical-offset="0" max-vertical-offset="737" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/strings.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="0" selection-end="230" vertical-scroll-proportion="0.24795641" vertical-offset="0" max-vertical-offset="734" />
+        <state vertical-scroll-proportion="0.3229308" vertical-offset="0" max-vertical-offset="737">
+          <caret line="17" column="60" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/security.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="64" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="798" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="798">
+          <caret line="24" column="64" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/active_enum_extended.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="84" selection-start="574" selection-end="574" vertical-scroll-proportion="0.65625" vertical-offset="42" max-vertical-offset="826" />
+        <state vertical-scroll-proportion="0.65625" vertical-offset="42" max-vertical-offset="826">
+          <caret line="33" column="84" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/json_status.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="110" selection-end="110" vertical-scroll-proportion="0.05698779" vertical-offset="0" max-vertical-offset="737" />
+        <state vertical-scroll-proportion="0.05698779" vertical-offset="0" max-vertical-offset="737">
+          <caret line="3" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/set_management_result.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="187" selection-end="203" vertical-scroll-proportion="0.07598372" vertical-offset="0" max-vertical-offset="737" />
+        <state vertical-scroll-proportion="0.07598372" vertical-offset="0" max-vertical-offset="737">
+          <caret line="4" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/data_type.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="45" selection-start="688" selection-end="688" vertical-scroll-proportion="0.22795115" vertical-offset="0" max-vertical-offset="737" />
+        <state vertical-scroll-proportion="0.22795115" vertical-offset="0" max-vertical-offset="737">
+          <caret line="12" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/deletion_status.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="168" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="168">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/education_level.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="90" selection-start="480" selection-end="480" vertical-scroll-proportion="0.11397558" vertical-offset="0" max-vertical-offset="737" />
+        <state vertical-scroll-proportion="0.11397558" vertical-offset="0" max-vertical-offset="737">
+          <caret line="6" column="90" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/file_type.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="51" selection-start="745" selection-end="745" vertical-scroll-proportion="0.18995929" vertical-offset="0" max-vertical-offset="737" />
+        <state vertical-scroll-proportion="0.18995929" vertical-offset="0" max-vertical-offset="737">
+          <caret line="10" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/sex.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="56" selection-start="245" selection-end="245" vertical-scroll-proportion="0.11397558" vertical-offset="0" max-vertical-offset="737" />
+        <state vertical-scroll-proportion="0.11397558" vertical-offset="0" max-vertical-offset="737">
+          <caret line="6" column="56" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/marriage_status.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="704" selection-end="704" vertical-scroll-proportion="0.18995929" vertical-offset="0" max-vertical-offset="737" />
+        <state vertical-scroll-proportion="0.18995929" vertical-offset="0" max-vertical-offset="737">
+          <caret line="10" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="111" selection-start="902" selection-end="902" vertical-scroll-proportion="0.39556003" vertical-offset="0" max-vertical-offset="991">
-          <folding />
+        <state vertical-scroll-proportion="0.39556003" vertical-offset="0" max-vertical-offset="991">
+          <caret line="28" column="111" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="74" selection-start="102" selection-end="102" vertical-scroll-proportion="0.07063572" vertical-offset="0" max-vertical-offset="991">
+        <state vertical-scroll-proportion="0.07063572" vertical-offset="0" max-vertical-offset="991">
+          <caret line="5" column="74" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/class_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="81" selection-start="3930" selection-end="3930" vertical-scroll-proportion="0.42885974" vertical-offset="1857" max-vertical-offset="3332">
+        <state vertical-scroll-proportion="0.2400722" vertical-offset="0" max-vertical-offset="3346">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chupakabra_tools/strings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chupakabra_tools.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="62" selection-start="811" selection-end="811" vertical-scroll-proportion="0.3814329" vertical-offset="0" max-vertical-offset="991">
+        <state vertical-scroll-proportion="0.08844765" vertical-offset="0" max-vertical-offset="1108">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
       </provider>

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    chupakabra_tools (0.0.19)
+    chupakabra_tools (0.0.21)
       active_enum
       activerecord
       activesupport
@@ -12,30 +12,34 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    active_enum (0.9.12)
-      activesupport (~> 3.0)
-    activemodel (3.2.12)
-      activesupport (= 3.2.12)
-      builder (~> 3.0.0)
-    activerecord (3.2.12)
-      activemodel (= 3.2.12)
-      activesupport (= 3.2.12)
-      arel (~> 3.0.2)
-      tzinfo (~> 0.3.29)
-    activesupport (3.2.12)
-      i18n (~> 0.6)
-      multi_json (~> 1.0)
-    arel (3.0.2)
-    builder (3.0.4)
-    i18n (0.6.4)
-    mini_portile (0.5.0)
-    multi_json (1.7.7)
-    nokogiri (1.6.0)
-      mini_portile (~> 0.5.0)
+    active_enum (0.9.1)
+    activemodel (4.1.1)
+      activesupport (= 4.1.1)
+      builder (~> 3.1)
+    activerecord (4.1.1)
+      activemodel (= 4.1.1)
+      activesupport (= 4.1.1)
+      arel (~> 5.0.0)
+    activesupport (4.1.1)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    arel (5.0.1.20140414130214)
+    builder (3.2.2)
+    i18n (0.6.9)
+    json (1.8.1)
+    mini_portile (0.6.0)
+    minitest (5.3.3)
+    nokogiri (1.6.2.1)
+      mini_portile (= 0.6.0)
     russian (0.6.0)
       i18n (>= 0.5.0)
-    tzinfo (0.3.37)
-    will_paginate (3.0.4)
+    thread_safe (0.3.3)
+    tzinfo (1.1.0)
+      thread_safe (~> 0.1)
+    will_paginate (3.0.5)
 
 PLATFORMS
   ruby
