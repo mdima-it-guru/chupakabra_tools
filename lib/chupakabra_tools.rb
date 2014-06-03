@@ -19,6 +19,7 @@ require "chupakabra_tools/deletion_status"
 require "chupakabra_tools/strings"
 require "chupakabra_tools/sex"
 require "chupakabra_tools/marriage_status"
+require "chupakabra_tools/api_status"
 
 
 require "chupakabra_tools/xml/xml_parser"

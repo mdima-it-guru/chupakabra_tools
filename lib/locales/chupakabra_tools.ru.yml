@@ -1,0 +1,28 @@
+en:
+    chupakabra_tools:
+        api_statuses:
+            unknown: "Неизвестен"
+            need_authentication: "Требуется аутентификация"
+            ok: "ok"
+            redirected: "Произошло перенаправелние"
+            access_denied: "Доступ запрещен"
+            error: "Ошибка"
+            record_not_found: "Запись не найдена"
+            page_404: "Страница 404"
+            database_error:  "Ошибка базы данных"
+            user_not_found: "Пользователь не найден"
+            app_not_found: "Приложение не найдено"
+            http_error: "Ошибка протокола HTTP"
+            json_response_error: "Неверный JSON ответ от сервера"
+            internal_error: "Внутренняя ошибка"
+        person_genders:
+            man: "мужчина"
+            woman: "женщина"
+            other: "не важно"
+        secret_questions:
+            mother_birthplace: "Место рождения Вашей Матери"
+            father_birthplace: "Место рождения Вашего Отца"
+            best_friend: "Ваш лучший друг детства"
+            pet_name: "Кличка Вашего первого домашнего питомца"
+            favorite_teacher: "Ваш любимый учитель"
+            favorite_caracter: "Ваш любимый персонаж"
